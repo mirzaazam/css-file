@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.margin-top{
+    margin-top: 50px;
+}
+
+/*Header sectiom*/
+.middeldiv{
+    width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+.header-left{
+    float: left;
+    width: 40%;
+}
+.header-left a img{
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 60%;
+}
+.header-right ul{
+    text-align: right;
+ }
+ .header-right ul li{
+    display: inline-block;
+    border-right: 1px solid white;
+    line-height: 50px;
+    margin-left: -4px;
+    transition: .5s;
+ }
+ .header-right ul li:first-child{
+    border-left: 1px solid white;
+ }
+ .header-right ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 35px;
+    line-height: 55px;
+}
+.header-right ul li:hover{
+    color: #fff;
+    background-color:#2980b9 ;
+}
+
+/*Bannar section*/
+.banner{
+    background: url(../../../img/slider.jpg) no-repeat center;
+    padding: 200px 0;
+    background-size: cover;
+   
+}
+.banner-comment{
+    text-align: center;
+}
+.banner-comment h1{
+    background-color: #16a085;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: inline-block;
+}
+.banner-comment h2{
+    background-color: rgb(26, 188, 156);
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 10px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px ;
+    
+}
+
+/*about*/
+
+.about{
+    margin: 20px 0;
+}
+.about h1{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+}
+
+/*section*/
+
+.section-part{
+    margin: 60px 60px;
+}
+.section{
+    float: left;
+    width: 31.3%;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 1%;
+    margin-left:1%;
+    margin-bottom: 60px;
+    box-shadow: 5px 3px 15px #ddd
+}
+.section:hover{
+    transform: scale(1.1);
+    transition: .7s;
+    cursor: pointer;
+}
+.section span{
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: blue;
+    color:white;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 20px 0;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.section h3{
+    margin: 20px 0;
+}
+
+/* Blog section*/
+.blog-left-contant{
+    float: left;
+    width: 70%;
+}
+.notice-right{
+    float: right;
+    width: 25%;
+   
+}
+.notice-right h1{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    
+}
+.notice-right ul{
+    list-style: none;
+}
+.notice-right ul li{
+    padding: 5px 0;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #fafafa;
+    border-radius: 5px;
+}
+.blog-left img{
+    width: 100px;
+    height: auto;
+    float: left ;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+.blog-left p{
+    text-align: justify;
+}
+
+/*footer*/
+.footer{
+    background-color: #34495e;
+    height: 100px;
+    width: auto;
+}
+.copy-right{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 22px 0;
+}
+.footer-right{
+    float: right;
+    width: 50%;
+}
+.social-menu{
+    text-align: right;
+    padding: 20px 0;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    color: #2980b9;
+    font-size: 30px;
+    padding: 5px 5px ;
+    background-color: #fafafa;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+/*Hover part*/
+.social-menu ul li:hover{
+    transform: scale(1.1) ; 
+    transition: .5s;
+}
+.social-menu li:first-child a:hover{
+    transition: .5S;
+    color: #3498db;
+}
+.social-menu li:nth-child(2) a:hover{
+    transition: .5S;
+    color: #3498db;
+}
+.social-menu li:nth-child(3) a:hover{
+    transition: .5S;
+    color: red;
+    transform: scale(1.1);
+}
